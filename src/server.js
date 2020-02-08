@@ -9,7 +9,7 @@ const htmlHandler = require('./htmlResponses.js');
 const jsonHandler = require('./jsonResponses.js');
 
 // sets up the port for the server
-const port = process.env.port || process.env.NODE_PORT || 3000;
+const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
 // handle GET requests
 const handleGet = (request, response, parsedUrl, contentType, queryParam) => {
