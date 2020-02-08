@@ -6,7 +6,7 @@
         "npm": "6.13.6"
     },
     "description": "http api homework",
-    "main": "index.js",
+    "main": "./src/server.js",
     "scripts": {
         "start": "node ./src/server.js",
         "pretest": "eslint ./src --fix",

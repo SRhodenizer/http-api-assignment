@@ -45,7 +45,7 @@ const handleGet = (request, response, parsedUrl, contentType, queryParam) => {
       if (contentType === 'application/json') {
         jsonHandler.getUnauthorized(request, response, 401, queryParam);
       } else {
-        jsonHandler.getUnauthorizedXML(request, response, 401,queryParam);
+        jsonHandler.getUnauthorizedXML(request, response, 401, queryParam);
       }
 
       break;
